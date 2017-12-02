@@ -17,7 +17,7 @@ end
   #if integer < 2
     #return false
   #end
-  #(2..Math.sqrt(integer).ceil).to_a.each do |i| 
+  #(2..Math.sqrt(integer).ceil).to_a.each do |i|
     #if integer % i == 0
       #return false
     #end
