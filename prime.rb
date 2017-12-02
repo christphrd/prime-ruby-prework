@@ -8,8 +8,19 @@ def prime?(integer)
   count_up_array.each do |num|
     if integer % num == 0
       return false
-    else
-      return true
     end
   end
+  true
 end
+
+#def prime?(integer)
+  #if integer < 2
+    #return false
+  #end
+  #(2..Math.sqrt(integer).ceil).to_a.each do |i| 
+    #if integer % i == 0
+      #return false
+    #end
+  #end
+  #true
+#end
