@@ -3,8 +3,9 @@ def prime?(integer)
     return false
   end
   #one_less = integer - 1
-  count_to_integer_array = (2..Math.sqrt(integer).ceil).to_a
-  count_to_integer_array.each do |num|
+  int_above_sqrt = Math.sqrt(integer).ceil
+  count_up_array = (2..int_above_sqrt).to_a
+  count_up_array.each do |num|
     if integer % num == 0
       return false
     else
