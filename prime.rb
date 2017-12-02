@@ -11,15 +11,3 @@ def prime?(integer)
   end
   true
 end
-
-#def prime?(integer)
-  #if integer < 2
-    #return false
-  #end
-  #(2..Math.sqrt(integer).ceil).to_a.each do |i|
-    #if integer % i == 0
-      #return false
-    #end
-  #end
-  #true
-#end
